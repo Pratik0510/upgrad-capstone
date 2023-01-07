@@ -1,0 +1,10 @@
+auth:
+  enabled: false
+master:
+  resources:
+    limits:
+      cpu: .5
+      memory: 500Mi 
+    requests:
+      cpu: .2
+      memory: 200Mi
